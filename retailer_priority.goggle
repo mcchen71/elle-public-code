@@ -2,10 +2,10 @@
 ! Boosts major retail sites for better product discovery
 ! Generated for shopping assistant application
 
-name: Prioritize Retailers
-description: Goggle to prioritize retailers
-public: false
-author: MC
+! name: Prioritize Retailers
+! description: Goggle to prioritize retailers
+! public: false
+! author: MC
 
 ! Major E-commerce Platforms
 $site=amazon.com$boost=3
