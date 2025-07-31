@@ -4,10 +4,10 @@
 ! author: MC
 
 ! Major E-commerce Platforms
-$site=amazon.com$boost=3
-$site=walmart.com$boost=3
-$site=target.com$boost=3
-$site=bestbuy.com$boost=3
+$site=amazon.com$boost=5
+$site=walmart.com$boost=5
+$site=target.com$boost=5
+$site=bestbuy.com$boost=5
 
 ! Home & Garden Retailers  
 $site=homedepot.com$boost=2
@@ -43,7 +43,6 @@ $site=nike.com$boost=2
 $site=adidas.com$boost=2
 
 ! Additional Major Retailers
-$site=shopify.com$boost=1
 $site=alibaba.com$boost=1
 $site=aliexpress.com$boost=1
 
@@ -51,3 +50,17 @@ $site=aliexpress.com$boost=1
 $site=youtube.com$downrank=2
 $site=pinterest.com$downrank=1
 $site=reddit.com$downrank=1
+
+! Deprioritize Wikipedia and news sites
+$site=wikipedia.org$downrank=3
+$site=en.wikipedia.org$downrank=3
+$site=cnn.com$downrank=2
+$site=bbc.com$downrank=2
+$site=reuters.com$downrank=2
+$site=ap.org$downrank=2
+$site=nytimes.com$downrank=2
+$site=washingtonpost.com$downrank=2
+$site=wsj.com$downrank=2
+$site=bloomberg.com$downrank=2
+$site=forbes.com$downrank=2
+$site=techcrunch.com$downrank=2
