@@ -1,0 +1,57 @@
+! Retailer Priority Goggle
+! Boosts major retail sites for better product discovery
+! Generated for shopping assistant application
+
+name: Prioritize Retailers
+description: Goggle to prioritize retailers
+public: false
+author: MC
+
+! Major E-commerce Platforms
+$site=amazon.com$boost=3
+$site=walmart.com$boost=3
+$site=target.com$boost=3
+$site=bestbuy.com$boost=3
+
+! Home & Garden Retailers  
+$site=homedepot.com$boost=2
+$site=lowes.com$boost=2
+$site=wayfair.com$boost=2
+$site=overstock.com$boost=2
+
+! Electronics & Tech
+$site=newegg.com$boost=2
+$site=bhphotovideo.com$boost=2
+$site=microcenter.com$boost=2
+
+! Specialty Retailers
+$site=chewy.com$boost=2
+$site=etsy.com$boost=2
+$site=ebay.com$boost=2
+
+! Department Stores
+$site=macys.com$boost=2
+$site=kohls.com$boost=2
+$site=nordstrom.com$boost=2
+$site=jcpenney.com$boost=2
+
+! Warehouse Clubs
+$site=costco.com$boost=2
+$site=samsclub.com$boost=2
+$site=bjs.com$boost=2
+
+! Fashion & Apparel
+$site=zappos.com$boost=2
+$site=6pm.com$boost=2
+$site=nike.com$boost=2
+$site=adidas.com$boost=2
+
+! Additional Major Retailers
+$site=shopify.com$boost=1
+$site=alibaba.com$boost=1
+$site=aliexpress.com$boost=1
+
+! Downrank non-shopping sites that often appear in product searches
+$site=youtube.com$downrank=2
+$site=pinterest.com$downrank=1
+$site=reddit.com$downrank=1
